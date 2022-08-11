@@ -6,33 +6,34 @@
 
 `$  git clone https://github.com/skyamit/TicTacToe`
 
-## How to Play :
+## How to Play:
 ```
-1. It will ask for player 1 name
-2. It will ask for player 1 sign
-3. It will ask for player 2 name
-4. It will ask for player 2 sign
-5. Now Just keep on providing x and y co-ordinate of the board, where you want to mark.
-6. Once someone wins, or game draws it will stop.
+1. The game will ask for player 1's name
+2. The game will ask for player 1's sign
+3. The game will ask for player 2's name
+4. The game will ask for player 2's sign
+5. Now just keep on providing x and y coordinates of the board, where you want to mark your sign.
+6. Once someone wins or the game results in a draw, the game will end.
+7. Play again, maybe? Who will be the winner this time?
 ```
-## Ex :
+## Game Example:
 ```
-Enter Player 1 name : 
-Amit Kumar
-Enter Player 1 move Sign : 
+Enter player 1 name:  
+plr1Name
+Enter player 1 move sign:  
 x
-Enter Player 2 name : 
-Sumit Kumar
-Enter Plyaer 2 move Sign : 
+Enter player 2 name: 
+plr2Name
+Enter player 2 move sign:
 0
-Enter the size of the board : 
+Enter the size of the board:
 3
 
-Game is started!!
+The game has started!
 
-Enter x co-ordinate Amit Kumar
+Enter x coordinate, plr1Name:
 0
-Enter y co-ordinate Amit Kumar
+Enter y coordinate, plr1Name:
 0
 
 -----------
@@ -40,9 +41,9 @@ Enter y co-ordinate Amit Kumar
  -  -  -
  -  -  -
 -----------
-Enter x co-ordinate Sumit Kumar
+Enter x coordinate, plr2Name:
 0
-Enter y co-ordinate Sumit Kumar
+Enter y coordinate, plr2Name:
 1
 
 -----------
@@ -50,9 +51,9 @@ Enter y co-ordinate Sumit Kumar
  -  -  -
  -  -  -
 -----------
-Enter x co-ordinate Amit Kumar
+Enter x coordinate, plr1Name:
 1
-Enter y co-ordinate Amit Kumar
+Enter y coordinate, plr1Name:
 1
 
 -----------
@@ -60,9 +61,9 @@ Enter y co-ordinate Amit Kumar
  -  x  -
  -  -  -
 -----------
-Enter x co-ordinate Sumit Kumar
+Enter x coordinate, plr2Name:
 2 
-Enter y co-ordinate Sumit Kumar
+Enter y coordinate, plr2Name:
 0
 
 -----------
@@ -70,9 +71,9 @@ Enter y co-ordinate Sumit Kumar
  -  x  -
  0  -  -
 -----------
-Enter x co-ordinate Amit Kumar
+Enter x coordinate, plr1Name:
 2
-Enter y co-ordinate Amit Kumar
+Enter y coordinate, plr1Name:
 2
 
 -----------
@@ -80,8 +81,10 @@ Enter y co-ordinate Amit Kumar
  -  x  -
  0  -  x
 -----------
-Amit Kumar won the game, Well Playerd!!
+plr1Name won the game, well played!
 ```
+
+Have fun playing terminal TicTacToe with your friends!
 
 ## Authors
 
@@ -91,5 +94,4 @@ Amit Kumar won the game, Well Playerd!!
 
 ## Contributing
 
-```Contributions are always welcome!```
-
+Contributions are always welcome! We look forward to collaboration.
